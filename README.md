@@ -2,8 +2,9 @@
 使用MaixBit和ESP8266，分别使用MicroPython和Arduino编程，其具备口罩检测、人脸识别和物联网功能，可以设计为物联网防疫门禁系统。
 
 使用方法：
+
 1.0x500000_FeatureExtraction刷入flash的0x500000位置；
-2.yolov2_voc_mask模型和font、framebuf、ssd1306、mlx90614这些额外的库文件存入SD卡（如果你不需要测温和OLED显示，可以不要这些库文件）；
+2.yolov2_voc_mask模型和font、framebuf、ssd1306、mlx90614这些额外的库文件存入SD卡（如果不需要测温和OLED，可以不要这些库文件）；
 3.接线并将程序刷入便可使用。
 
 物联网功能中Blinker就是点灯科技，App Store和酷安都能找到，网上有使用教程，也可以看看官方文档，可以自定手机端控制面板的按键。
